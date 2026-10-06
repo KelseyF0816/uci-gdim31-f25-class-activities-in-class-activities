@@ -1,10 +1,16 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+When the Camera is no longer a child of the Cat, it stops following the cat as it moves and turns. This is because the Camera no longer moves with the Cat's Transform.
+
+Itch.io game link: https://sleepsleepforever.itch.io/w1-class-activity
 
 ### W2
-Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
+1. The r, g, and b variables are floats because color values use decimals between 0 and 1, like 0.3. Ints only store whole numbers, bools store true or false, and strings store text.
+
+2. The _bounces variable is an int because it counts whole bounces, like 1, 2, and 3. It does not need decimals, true or false values, or text.
+
+3. The error in Step 4 is "; expected." This means the line is missing a semicolon at the end. The correct code is `g -= 0.1f;`.
 
 ## Open-Source Assets
 ### W1
