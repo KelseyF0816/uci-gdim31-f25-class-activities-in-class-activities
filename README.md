@@ -12,12 +12,6 @@ Itch.io game link: https://sleepsleepforever.itch.io/w1-class-activity
 
 3. The error in Step 4 is "; expected." This means the line is missing a semicolon at the end. The correct code is `g -= 0.1f;`.
 
-## Open-Source Assets
-### W1
-- Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
-- Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 
-
-
 ### W3
 #### Activity1 (Table#8): 
 1. string GetResponse(int friendshipLevel, bool knowsSecret)
@@ -29,3 +23,10 @@ A class is like a blueprint, and a Component is something built from it. Member 
 
 #### Activity3: 
 The balls get extremely bright because their color values keep increasing every time they bounce, eventually going beyond the normal range.
+
+
+## Open-Source Assets
+### W1
+- Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
+- Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 
+
