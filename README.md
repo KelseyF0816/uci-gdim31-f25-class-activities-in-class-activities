@@ -16,3 +16,16 @@ Itch.io game link: https://sleepsleepforever.itch.io/w1-class-activity
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
 - Low-poly environment: https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153 
+
+
+### W3
+#### Activity1 (Table#8): 
+1. string GetResponse(int friendshipLevel, bool knowsSecret)
+2. void SetLightDimness(float sanityLevel)
+3. bool DidPlayerHitBeat(float pressTime)
+
+#### Activity2：
+A class is like a blueprint, and a Component is something built from it. Member variables describe its traits, while methods define what it can do.
+
+#### Activity3: 
+The balls get extremely bright because their color values keep increasing every time they bounce, eventually going beyond the normal range.
