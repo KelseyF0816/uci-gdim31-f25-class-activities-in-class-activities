@@ -21,8 +21,12 @@ public class SoccerBall : MonoBehaviour
     //
     // Also, uncomment and FIX the Debug.Log line.
 
-    //private ?? ??
-    //{
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Goal"))
+        {
+            MadeGoal();
+        }
         // finish STEP 1 by uncommenting and fixing the below line!
         //Debug.Log(SoccerBall detected a collision with a trigger collider!);
 
@@ -36,10 +40,35 @@ public class SoccerBall : MonoBehaviour
 
 
         // STEP 2 -------------------------------------------------------------
-    //}
+    }
 
     // STEP 1 -----------------------------------------------------------------
 
+
+    private int _points;
+    private float _timeSinceLastGoal;
+
+    private void Start()
+    {
+        _pointsText.text = "points: " + _points;
+        _timeText.text = "time since last goal: 0.0";
+    }
+
+    private void Update()
+    {
+        _timeSinceLastGoal += Time.deltaTime;
+        _timeText.text = "time since last goal: " + _timeSinceLastGoal.ToString("F1");
+    }
+
+    private void MadeGoal()
+    {
+        Debug.Log("SoccerBall detected a collision with a trigger collider!");
+        _goalVFX.Play();
+        _points++;
+        _pointsText.text = "points: " + _points;
+        _timeSinceLastGoal = 0f;
+        _timeText.text = "time since last goal: 0.0";
+    }
 
     // STEP 3 -----------------------------------------------------------------
     // Next, we're going to make a method named MadeGoal to call if the

@@ -24,6 +24,12 @@ A class is like a blueprint, and a Component is something built from it. Member 
 #### Activity3: 
 The balls get extremely bright because their color values keep increasing every time they bounce, eventually going beyond the normal range.
 
+### W4 
+Table(#10)
+1. I added Rigidbodies to the Cat and SoccerBall so the cat could kick the ball and both could respond to physics. I checked Is Trigger on the Goal so the ball could pass through it and register a goal, while leaving it unchecked on the Cat and SoccerBall so they could physically collide.
+
+2. When I first tested the game, the cat tilted and rotated unexpectedly while moving, which also tilted the camera attached to it. I froze the Rigidbody’s X and Z rotation, and the issue was resolved.
+
 
 ## Open-Source Assets
 ### W1
