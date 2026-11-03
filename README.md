@@ -30,6 +30,10 @@ Table(#10)
 
 2. When I first tested the game, the cat tilted and rotated unexpectedly while moving, which also tilted the camera attached to it. I froze the Rigidbody’s X and Z rotation, and the issue was resolved.
 
+### W6
+1. A serialized Transform _target and a NavMeshAgent _agent.
+2. Unity’s built-in Start() method.
+3. Start() should get the NavMeshAgent using GetComponent<NavMeshAgent>(), then call _agent.SetDestination(_target.position) to make the deer walk toward its target.
 
 ## Open-Source Assets
 ### W1
