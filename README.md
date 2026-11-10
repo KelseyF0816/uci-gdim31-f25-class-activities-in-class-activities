@@ -35,6 +35,15 @@ Table(#10)
 2. Unity’s built-in Start() method.
 3. Start() should get the NavMeshAgent using GetComponent<NavMeshAgent>(), then call _agent.SetDestination(_target.position) to make the deer walk toward its target.
 
+## W7
+google doc: https://docs.google.com/document/d/151SgXqNHDRftL5pOKSRbTrPD8LsiZ29sz2fVIOB1WiY/edit?usp=sharing
+My category assignment: General C# coding
+Notes:
+1. The class needed a float for the bat’s speed and a Transform for its target. The speed can be adjusted in the Inspector.
+2. The class needed Unity’s Update() method and two custom public methods, StartChasing() and StopChasing().
+3. StartChasing() sets the cat as the target, and StopChasing() clears it. Update() moves the bat toward the target each frame while it has one.
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
