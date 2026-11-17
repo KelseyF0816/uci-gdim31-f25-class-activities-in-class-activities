@@ -43,6 +43,9 @@ Notes:
 2. The class needed Unity’s Update() method and two custom public methods, StartChasing() and StopChasing().
 3. StartChasing() sets the cat as the target, and StopChasing() clears it. Update() moves the bat toward the target each frame while it has one.
 
+## W8
+In step 2, Vector3.forward used the world’s forward direction, so turning did not change the movement direction. I replaced it with transform.forward so the muskrat moves in the direction it faces. I also froze X and Z rotation to prevent tipping while keeping turning possible.
+
 
 ## Open-Source Assets
 ### W1
